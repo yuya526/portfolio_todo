@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>todo_app_dom</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- タイトル -->
+  <header>
+    <h1 id="title">TODO_App</h1>
+  </header>
+
+  <main>
+    <!-- 入力フォーム -->
+    <div>
+      <h2>本日のタスクを入力してください</h2>
+      <label for="input_box"></label>
+      <input type="text" id="input_box">
+      <button type="button" id="add_button">追加する</button>
+    </div>
+
+    <!-- ToDoリスト -->
+    <h2>あなたのToDoリスト</h2>
+    <ul id="todo_list"></ul>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
